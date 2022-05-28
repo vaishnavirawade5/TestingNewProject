@@ -19,11 +19,11 @@ public class FacebookLogin {
 		
 	}
 	
-//	public void facebookLogin()
-//	{
-//		username.sendKeys("vaishnavirawade31@gmai.com");
-//		password.sendKeys("Vaishnavi");
-//		loginButton.click();
-//	}
-//	
+	public void facebookLogin()
+	{
+		username.sendKeys("vaishnavirawade31@gmai.com");
+		password.sendKeys("Vaishnavi");
+		loginButton.click();
+	}
+	
 }
