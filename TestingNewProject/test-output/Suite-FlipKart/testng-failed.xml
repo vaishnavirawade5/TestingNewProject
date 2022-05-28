@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite-FlipKart]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="FirefoxTest(failed)">
+    <parameter name="alpha" value="Opera Settings"/>
+    <parameter name="beta" value="Safari Settings"/>
+    <classes>
+      <class name="com.application.Demo">
+        <methods>
+          <include name="testC"/>
+          <include name="beforeMethod"/>
+          <include name="testB"/>
+          <include name="afterTest"/>
+          <include name="beforeClass"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterClass"/>
+          <include name="testA"/>
+        </methods>
+      </class> <!-- com.application.Demo -->
+      <class name="com.application.Demo2">
+        <methods>
+          <include name="testB"/>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="testC"/>
+          <include name="afterClass"/>
+          <include name="testA"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.application.Demo2 -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+</suite> <!-- Failed suite [Suite-FlipKart] -->

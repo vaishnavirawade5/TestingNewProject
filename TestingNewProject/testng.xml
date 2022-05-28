@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite-FlipKart">
+  <test thread-count="5" name="Chrome Test">
+<parameter name = "alpha" value = "Chrome Settings " />
+<parameter name = "data1" value = "Firefox Settings "/>
+
+    <classes>
+   
+      <class name="com.application.Demo"/>
+      <class name="com.application.Demo2"/>
+
+    </classes>
+  </test> <!-- Test -->
+
+<test thread-count = "5" name="FirefoxTest">
+<parameter name = "alpha" value= "Opera Settings" />
+<parameter name = "data1" value = "Safari Settings" />
+
+<classes>
+<class name = "com.application.Demo"/>
+<class name="com.application.Demo2"/>
+
+</classes>
+</test>
+
+
+</suite> <!-- Suite -->
