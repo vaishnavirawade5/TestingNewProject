@@ -8,7 +8,7 @@ public class BaseClassCrossBrowser {
 	
 	public static WebDriver openChromeBrowser()
 	{
-		System.setProperty("webdriver.chrome.driver","F:\\Chrome Driver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","F:\\Chrome Driver\\chromedriver_win32\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		return driver;
 	}
